@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Mood-Based Planner</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎭 Mood-Based Planner</h1>
+    
+    <div class="mood-buttons">
+      <button data-mood="happy">😊 Happy</button>
+      <button data-mood="stressed">😣 Stressed</button>
+      <button data-mood="bored">😐 Bored</button>
+      <button data-mood="sad">😢 Sad</button>
+    </div>
+
+    <div id="response-box" class="card hidden">
+      <p><strong>Quote:</strong> <span id="quote"></span></p>
+      <p><strong>Suggestion:</strong> <span id="suggestion"></span></p>
+    </div>
+
+    <h2>Your Tasks</h2>
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
